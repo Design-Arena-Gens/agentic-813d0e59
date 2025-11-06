@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-6xl px-6;
+}
+
+.glass-card {
+  @apply rounded-3xl border border-white/10 bg-white/5 p-6 shadow-glow backdrop-blur;
+}
